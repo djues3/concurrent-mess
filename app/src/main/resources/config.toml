@@ -1,0 +1,6 @@
+[config]
+listen_directory = "app/src/main/resources"
+[config2]
+listen_directory = "app/src/main/resources"
+[config.database]
+url = "jdbc:mysql://localhost:3306/test"
