@@ -5,6 +5,8 @@ There are many crimes against programming in this repository, I sincerely apolog
 
 ## How to run
 This project requires the newest version of the JDK to run (at time of release, JDK 24). It also uses preview features.
+You can clone it from [Github](https://github.com/djues3/concurrent-mess)
+
 ```bash
 ./gradlew run
 ```
