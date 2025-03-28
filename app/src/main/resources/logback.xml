@@ -1,0 +1,16 @@
+<configuration>
+    <conversionRule conversionWord="customHighlight"
+                    class="rs.edu.raf.ddjuretanovi8622rn.concurrent.mess.logging.LevelBasedConverter"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+<!--        <withJansi>true</withJansi>-->
+        <encoder>
+            <pattern>%gray(%date{yyyy-MM-dd HH:mm:ss.SSS}) %customHighlight(%-5level) %magenta(---) %gray([%15.15thread]) %cyan(%-40.40logger{39}) %magenta(:) %m%n </pattern>
+        </encoder>
+    </appender>
+    <logger name="rs.edu.raf.ddjuretanovi8622rn.concurrent.mess" level="TRACE" />
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
